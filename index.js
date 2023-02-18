@@ -50,11 +50,11 @@ const compareGuess = () => {
     }
   } else {
     if (userNumber > computerGuess) {
-      userGuessUpdate.innerHTML = `You Loose !! correct number was ${computerGuess}`;
+      userGuessUpdate.innerHTML = `You Loose !! correct number was ${computerGuess}😒`;
       userNumberUpdate.value = "";
       startNewGame();
     } else if (userNumber < computerGuess) {
-      userGuessUpdate.innerHTML = `You Loose !! correct number was ${computerGuess}`;
+      userGuessUpdate.innerHTML = `You Loose !! correct number was ${computerGuess}😒`;
       userNumberUpdate.value = "";
       startNewGame();
     } else {

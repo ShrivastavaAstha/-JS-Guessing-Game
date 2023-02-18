@@ -166,4 +166,23 @@ input {
         text-transform: capitalize;
         font-size: 2rem;
     }
-}
+    button{
+        width: 40vw;
+    }
+    }
+
+    @media (max-width: 480px) {
+        body {
+            width:100vw;
+        }
+        input{
+            width:60vw;
+        }
+        button{
+            width:20vw;
+        }
+        main {
+            width:100vw;
+            padding:2rem;
+        }
+    }
